@@ -25,7 +25,7 @@ const Sidebar = ({ darkMode }) => {
 
   return (
     <aside
-      className={`h-screen flex justify-center overflow-hidden transition-all duration-500 ease-in-out border-r shadow-lg
+      className={`min-h-screen flex justify-center overflow-hidden transition-all duration-500 ease-in-out border-r shadow-lg
         ${bgColor} ${darkMode ? "border-gray-800" : "border-gray-100"}
         ${open ? "w-[118px]" : "w-[70px]"}`}
     >

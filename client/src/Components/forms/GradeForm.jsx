@@ -109,12 +109,11 @@ const GradeForm = ({ darkMode = false }) => {
           {gradeOptions.map((g) => <option key={g}>{g}</option>)}
         </select>
         
-       <button
+        <button
           type="submit"
           className="col-span-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
           Add Details
         </button>
-
       </form>
 
       {/* Filters */}

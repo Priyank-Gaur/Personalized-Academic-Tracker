@@ -5,11 +5,6 @@ body {
     font-family: 'Khula', sans-serif;
   }
 
-html, body, #root {
-    height: 100vh;
-    overflow: hidden;
-  }
-
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
